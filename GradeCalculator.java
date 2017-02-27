@@ -1,5 +1,5 @@
 class Grades {
-	int quiz1Grade, quiz2Grade, quiz3Grade, quiz4Grade, quiz5Grade;
+	double quiz1Grade, quiz2Grade, quiz3Grade, quiz4Grade, quiz5Grade;
 	int midtermExam, finalExam;
 	
 	Grades(int quiz1, int quiz2, int quiz3, int quiz4, int quiz5, int midterm, int exam) {
@@ -11,7 +11,7 @@ class Grades {
 		midtermExam = midterm;
 		finalExam = exam;
 	}
-		
+		quizTotalMark = 
 }
 
 
@@ -20,13 +20,13 @@ class Grades {
 public class GradeCalculator {		// the main class
 	public static void main(String[] args) {
 		
-		Grades person1 = new Grades(80, 76, 89, 93, 85, 89, 93);
+		Grades person1 = new Grades(8.0, 7.5, 9.0, 9.5, 8.5, 89, 93);
 		/*
-		person1.quiz1Grade = 80;
-		person1.quiz2Grade = 76;
-		person1.quiz3Grade = 89;
-		person1.quiz4Grade = 93;
-		person1.quiz5Grade = 85;
+		person1.quiz1Grade = 8.0;
+		person1.quiz2Grade = 7.5;
+		person1.quiz3Grade = 9.0;
+		person1.quiz4Grade = 9.5;
+		person1.quiz5Grade = 8.5;
 		
 		person1.midtermExam = 89;
 		
@@ -34,13 +34,13 @@ public class GradeCalculator {		// the main class
 		*/
 		
 		
-		Grades person2 = new Grades(65, 78, 45, 77, 89, 87, 90);
+		Grades person2 = new Grades(6.5, 7.5, 4.5, 7.5, 9.0, 87, 90);
 		/*
-		person2.quiz1Grade = 65;
-		person2.quiz2Grade = 78;
-		person2.quiz3Grade = 45;
-		person2.quiz4Grade = 77;
-		person2.quiz5Grade = 89;
+		person2.quiz1Grade = 6.5;
+		person2.quiz2Grade = 7.5;
+		person2.quiz3Grade = 4.5;
+		person2.quiz4Grade = 7.5;
+		person2.quiz5Grade = 9.0;
 		
 		person2.midtermExam = 87;
 		
