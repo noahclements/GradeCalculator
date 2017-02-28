@@ -3,7 +3,7 @@ class Grades {
 	double quizTotalMark, examMark, finalMark;
 	int midtermExam, finalExam, quizTotal;
 	char gradeLetter;
-	Grades(int quiz1, int quiz2, int quiz3, int quiz4, int quiz5, int midterm, int exam) {
+	Grades(double quiz1, double quiz2, double quiz3, double quiz4, double quiz5, int midterm, int exam) {
 		quiz1Grade = quiz1;
 		quiz2Grade = quiz2;
 		quiz3Grade = quiz3;
@@ -21,20 +21,21 @@ class Grades {
 
 		finalMark = quizTotalMark + midtermMark + examMark; // this is the final mark
 
-if (finalMark => 90) {
+if (finalMark >+ 90) {
 	gradeLetter = 'A';
-} else if(finalMark => 80 && finalMark < 90) {
+} else if(finalMark >+ 80 && finalMark < 90) {
 	gradeLetter = 'B';
-} else if(finalMark => 70 && finalMark < 80) {
+} else if(finalMark >+ 70 && finalMark < 80) {
 	gradeLetter = 'C';
-} else if(finalMark => 60 && finalMark < 70) {
+} else if(finalMark >+ 60 && finalMark < 70) {
 	gradeLetter = 'D';
 } else if(finalMark < 60) {
-	gradeLetter = 'E';
-}
+	gradeLetter = 'E'; 
+	}
+
 
 		void showSeperateGrades() {
-			System.out.println("Your average grade with your quizzes was: " + quizTotal + "%")
+			System.out.println("Your average grade with your quizzes was: " + quizTotal + "%");
 		}
 
 
