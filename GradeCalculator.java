@@ -47,39 +47,39 @@ public class GradeCalculator {		// the main class
 		person2.finalExam = 90;
 		*/
 		
-		Grades person3 = new Grades(45, 65, 76, 80, 78, 90, 89);
+		Grades person3 = new Grades(4.5, 6.5, 7.5, 8.0, 8.0, 90, 95);
 		/*
-		person3.quiz1Grade = 45;
-		person3.quiz2Grade = 65;
-		person3.quiz3Grade = 76;
-		person3.quiz4Grade = 80;
-		person3.quiz5Grade = 78;
+		person3.quiz1Grade = 4.5;
+		person3.quiz2Grade = 6.5;
+		person3.quiz3Grade = 7.5;
+		person3.quiz4Grade = 8.0;
+		person3.quiz5Grade = 8.0;
 		
 		person3.midtermExam = 90;
 		
-		person3.finalExam = 89;
+		person3.finalExam = 95;
 		*/	
 		
-		Grades person4 = new Grades(97, 93, 79, 86, 95, 97, 98);
+		Grades person4 = new Grades(10.0, 9.5, 8.0, 8.5, 9.5, 95, 98);
 		/*
-		person4.quiz1Grade = 97;
-		person4.quiz2Grade = 93;
-		person4.quiz3Grade = 79;
-		person4.quiz4Grade = 86;
-		person4.quiz5Grade = 95;
+		person4.quiz1Grade = 10.0;
+		person4.quiz2Grade = 9.5;
+		person4.quiz3Grade = 8.0;
+		person4.quiz4Grade = 8.5;
+		person4.quiz5Grade = 9.5;
 		
-		person4.midtermExam = 97;
+		person4.midtermExam = 95;
 		
 		person4.finalExam = 98;
 		*/
 		
-		Grades person5 = new Grades(43, 39, 63, 60, 76, 85, 91);
+		Grades person5 = new Grades(4.5, 4.0, 6.0, 6.0, 7.5, 85, 91);
 		/*
-		person5.quiz1Grade = 43;
-		person5.quiz2Grade = 39;
-		person5.quiz3Grade = 63;
-		person5.quiz4Grade = 60;
-		person5.quiz5Grade = 76;
+		person5.quiz1Grade = 4.5;
+		person5.quiz2Grade = 4.0;
+		person5.quiz3Grade = 6.0;
+		person5.quiz4Grade = 6.0;
+		person5.quiz5Grade = 7.5;
 		
 		person5.midtermExam = 85;
 		
