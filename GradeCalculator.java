@@ -1,7 +1,7 @@
 class Grades {
 	double quiz1Grade, quiz2Grade, quiz3Grade, quiz4Grade, quiz5Grade;
-	double quizTotalMark, examMark, finalMark;
-	int midtermExam, finalExam, quizTotal;
+	double quizTotalMark, examMark, finalMark, quizTotal, midtermMark;
+	int midtermExam, finalExam;
 	char gradeLetter;
 	Grades(double quiz1, double quiz2, double quiz3, double quiz4, double quiz5, int midterm, int exam) {
 		quiz1Grade = quiz1;
@@ -11,7 +11,7 @@ class Grades {
 		quiz5Grade = quiz5;
 		midtermExam = midterm;
 		finalExam = exam;
-	}
+	
 		quizTotal = (((quiz1Grade + quiz2Grade + quiz3Grade + quiz4Grade + quiz5Grade) / 5 ) * 10);
 		quizTotalMark  = quizTotal * 0.5; // quizs are worth 50%
 
@@ -20,7 +20,7 @@ class Grades {
 		examMark = finalExam * 0.25; // exam worth 25%
 
 		finalMark = quizTotalMark + midtermMark + examMark; // this is the final mark
-
+	
 if(finalMark >= 90) {
 	gradeLetter = 'A';
 } else if(finalMark >= 80 && finalMark < 90) {
@@ -31,8 +31,8 @@ if(finalMark >= 90) {
 	gradeLetter = 'D';
 } else if(finalMark < 60) {
 	gradeLetter = 'E'; 
+	}
 }
-
 
 		void showSeperateGrades() {
 			System.out.println("Your average grade with your quizzes was: " + quizTotal + "%");
@@ -82,6 +82,9 @@ public class GradeCalculator {		// the main class
 
 		person2.finalExam = 90;
 		*/
+		person2.showSeperateGrades();
+		person2.showGradePercentage();
+		person2.showGradeLetter();
 
 		Grades person3 = new Grades(4.5, 6.5, 7.5, 8.0, 8.0, 90, 95);
 		/*
@@ -95,6 +98,9 @@ public class GradeCalculator {		// the main class
 
 		person3.finalExam = 95;
 		*/
+		person3.showSeperateGrades();
+		person3.showGradePercentage();
+		person3.showGradeLetter();
 
 		Grades person4 = new Grades(10.0, 9.5, 8.0, 8.5, 9.5, 95, 98);
 		/*
@@ -108,6 +114,9 @@ public class GradeCalculator {		// the main class
 
 		person4.finalExam = 98;
 		*/
+		person4.showSeperateGrades();
+		person4.showGradePercentage();
+		person4.showGradeLetter();
 
 		Grades person5 = new Grades(4.5, 4.0, 6.0, 6.0, 7.5, 85, 91);
 		/*
@@ -121,6 +130,9 @@ public class GradeCalculator {		// the main class
 
 		person5.finalExam = 91;
 		*/
+		person5.showSeperateGrades();
+		person5.showGradePercentage();
+		person5.showGradeLetter();
 
 
 	}
