@@ -21,17 +21,17 @@ class Grades {
 
 		finalMark = quizTotalMark + midtermMark + examMark; // this is the final mark
 
-if (finalMark >+ 90) {
+if(finalMark >= 90) {
 	gradeLetter = 'A';
-} else if(finalMark >+ 80 && finalMark < 90) {
+} else if(finalMark >= 80 && finalMark < 90) {
 	gradeLetter = 'B';
-} else if(finalMark >+ 70 && finalMark < 80) {
+} else if(finalMark >= 70 && finalMark < 80) {
 	gradeLetter = 'C';
-} else if(finalMark >+ 60 && finalMark < 70) {
+} else if(finalMark >= 60 && finalMark < 70) {
 	gradeLetter = 'D';
 } else if(finalMark < 60) {
 	gradeLetter = 'E'; 
-	}
+}
 
 
 		void showSeperateGrades() {
